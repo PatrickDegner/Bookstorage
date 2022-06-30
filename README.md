@@ -1,5 +1,5 @@
 # Project
-Bookstorge in Python connected with PostgresSQL Database
+Bookstorage in Python connected with PostgresSQL Database
 
 # How to use
 create a .env file in utils folder and add your database informations:
