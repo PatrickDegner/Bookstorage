@@ -9,3 +9,5 @@ user=USER_NAME<br />
 password=PASSWORD<br />
 host=HOST_IP (127.0.0.1 localhost)<br />
 port=SERVER_PORT (5432 would be standard)
+
+Run app.py :)
