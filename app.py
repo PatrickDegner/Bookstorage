@@ -43,12 +43,16 @@ def prompt_read_book():
     name = input('Enter the name of the book you just finished reading: ')
 
     database.mark_book_as_read(name)
+    print()
+    print(f'Book {name} has set to read')
 
 
 def prompt_delete_book():
     name = input('Enter the name of the book you wish to delete: ')
 
     database.delete_book(name)
+    print()
+    print(f'Book {name} has been deleted!')
 
 
 menu()
